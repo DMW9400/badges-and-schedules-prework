@@ -13,7 +13,7 @@ def batch_badge_creator(name_array)
   return new_array
 end
 
-def conference_badges(name_array)
+def assign_rooms(name_array)
   room_number = 1
   new_array = []
   i = 0
