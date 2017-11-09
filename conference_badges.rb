@@ -34,5 +34,4 @@ def printer(attendees)
   badge_rooms.each do |item|
     puts item
   end
-
 end
