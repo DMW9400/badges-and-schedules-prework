@@ -13,6 +13,7 @@ def batch_badge_creator(name_array)
   return new_array
 end
 
-def conference_badges
+def conference_badges(name_array)
+  
   
 end
