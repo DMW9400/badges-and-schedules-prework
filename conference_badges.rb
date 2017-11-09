@@ -23,5 +23,4 @@ def conference_badges(name_array)
     room_number+=1
   end
   return new_array
-
 end
