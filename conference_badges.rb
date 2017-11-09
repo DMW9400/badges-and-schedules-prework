@@ -31,5 +31,8 @@ def printer(attendees)
   badge_array.each do |item|
     puts item
   end
-  
+  badge_rooms.each do |item|
+    puts item
+  end
+
 end
