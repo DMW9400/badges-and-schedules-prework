@@ -16,6 +16,11 @@ end
 def conference_badges(name_array)
   room_number = 1
   new_array = []
-  
+  i = 0
+  while i < name_array.length
+    new_array.push("Hello, #{name_array[i]}! You'll be assigned to room #{room_number}")
+    i+=1
+    room_number+=1
+  end
 
 end
